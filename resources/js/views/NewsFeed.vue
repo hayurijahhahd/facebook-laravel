@@ -1,10 +1,17 @@
 <template>
-    $END$
+    <div class="flex flex-col items-center py-4">
+        <NewPost />
+    </div>
 </template>
 
 <script>
+    import NewPost from "../components/NewPost";
     export default {
-        name: "NewsFeed"
+        name: "NewsFeed",
+
+        components: {
+            NewPost
+        }
     }
 </script>
 
