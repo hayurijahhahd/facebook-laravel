@@ -27,8 +27,10 @@
                 </svg>
             </router-link>
 
-            <router-link to="/" class="px-6 h-full border-b-2 border-white flex items-center">
-                <img src="https://pbs.twimg.com/media/EL8XDZfVAAACOwV?format=jpg&name=large" alt="profile image for user" class="w-8 h-8 object-cover rounded-full">
+            <router-link :to="'/users/' + user.data.user_id"
+                         class="px-6 h-full border-b-2 border-white flex items-center">
+                <img src="https://pbs.twimg.com/media/EL8XDZfVAAACOwV?format=jpg&name=large"
+                     alt="profile image for user" class="w-8 h-8 object-cover rounded-full">
             </router-link>
 
             <router-link to="/" class="px-6 h-full border-b-2 border-white flex items-center">
@@ -48,7 +50,23 @@
 
 <script>
     export default {
-        name: "Nav"
+        name: "Nav",
+
+        data: () => {
+            return {
+                user: null
+            }
+        },
+
+        mounted() {
+            axios.get('/api/auth-user')
+                .then(res => {
+                    this.user = res.data;
+                })
+                .catch(error => {
+                    console.log('Unable to fetch auth user');
+                })
+        }
     }
 </script>
 
