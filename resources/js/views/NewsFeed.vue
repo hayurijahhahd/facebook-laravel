@@ -1,7 +1,9 @@
 <template>
     <div class="flex flex-col items-center py-4">
-        <NewPost />
-        <Post :key="post.data.post_id" :post="post" v-for="post in posts.data"/>
+        <NewPost/>
+
+        <p v-if="loading">Loading post...</p>
+        <Post :key="post.data.post_id" :post="post" v-else v-for="post in posts.data"/>
     </div>
 </template>
 
@@ -18,7 +20,8 @@
 
         data: () => {
             return {
-                posts: null
+                posts: [],
+                loading: true
             }
         },
 
@@ -26,9 +29,11 @@
             axios.get('/api/posts')
                 .then(res => {
                     this.posts = res.data;
+                    this.loading = false;
                 })
                 .catch(error => {
                     console.log('Unable to fetch posts');
+                    this.loading = false;
                 })
         }
     }
