@@ -8,7 +8,7 @@
                 </div>
                 <div class="ml-6">
                     <div class="text-sm font-boldd">{{ post.data.attributes.posted_by.data.attributes.name }}</div>
-                    <div class="text-sm text-gray-600">12 mins ago</div>
+                    <div class="text-sm text-gray-600">{{ post.data.attributes.posted_at }}</div>
                 </div>
             </div>
 
@@ -17,9 +17,9 @@
             </div>
         </div>
 
-        <div class="w-full">
+        <div class="w-full" v-if="post.data.attributes.image">
             <img alt="post image" class="w-full"
-                 src="https://pbs.twimg.com/media/EHVk3TRU0AAWb80?format=jpg&name=4096x4096">
+                 :src="post.data.attributes.image">
         </div>
 
         <div class="px-4 flex justify-between text-gray-700 text-sm pt-2">

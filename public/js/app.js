@@ -20098,27 +20098,34 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "text-sm text-gray-600" }, [
-              _vm._v("12 mins ago")
+                _vm._v(_vm._s(_vm.post.data.attributes.posted_at))
             ])
           ])
         ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-4" }, [
-          _c("p", [_vm._v(_vm._s(_vm.post.data.attributes.body))])
-        ])
+          _vm._v(" "),
+          _c("div", {staticClass: "mt-4"}, [
+              _c("p", [_vm._v(_vm._s(_vm.post.data.attributes.body))])
+          ])
       ]),
-      _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "px-4 flex justify-between text-gray-700 text-sm pt-2" },
-        [
-          _c("div", { staticClass: "flex" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "fill-current w-5 h-5",
+        _vm._v(" "),
+        _vm.post.data.attributes.image
+            ? _c("div", {staticClass: "w-full"}, [
+                _c("img", {
+                    staticClass: "w-full",
+                    attrs: {alt: "post image", src: _vm.post.data.attributes.image}
+                })
+            ])
+            : _vm._e(),
+        _vm._v(" "),
+        _c(
+            "div",
+            {staticClass: "px-4 flex justify-between text-gray-700 text-sm pt-2"},
+            [
+                _c("div", {staticClass: "flex"}, [
+                    _c(
+                        "svg",
+                        {
+                            staticClass: "fill-current w-5 h-5",
                 attrs: {
                   viewBox: "0 0 24 24",
                   xmlns: "http://www.w3.org/2000/svg"
@@ -20137,7 +20144,7 @@ var render = function() {
             _c("p", [_vm._v("Jame Smooth and 1328 others")])
           ]),
           _vm._v(" "),
-          _vm._m(2)
+                _vm._m(1)
         ]
       ),
       _vm._v(" "),
@@ -20221,21 +20228,6 @@ var staticRenderFns = [
           alt: "profile image for user",
           src:
             "https://pbs.twimg.com/media/EL8XDZfVAAACOwV?format=jpg&name=large"
-        }
-      })
-    ])
-  },
-  function() {
-    var _vm = this;
-    var _h = _vm.$createElement;
-    var _c = _vm._self._c || _h;
-    return _c("div", { staticClass: "w-full" }, [
-      _c("img", {
-        staticClass: "w-full",
-        attrs: {
-          alt: "post image",
-          src:
-            "https://pbs.twimg.com/media/EHVk3TRU0AAWb80?format=jpg&name=4096x4096"
         }
       })
     ])
