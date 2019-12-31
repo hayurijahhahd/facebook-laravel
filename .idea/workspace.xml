@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4deb5a5d-fafd-455a-b7fe-8d2092eb667a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserPostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/NewsFeed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/NewsFeed.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/views/Users/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Users/Show.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UserCanViewProfileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UserCanViewProfileTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577763418881</updated>
       <workItem from="1577763420376" duration="444000" />
-      <workItem from="1577763875775" duration="27438000" />
+      <workItem from="1577763875775" duration="28649000" />
     </task>
     <task id="LOCAL-00001" summary="Vue Component - Post">
       <created>1577797994181</created>
@@ -287,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577809678951</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="User Post Test">
+      <created>1577811536420</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577811536420</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +304,8 @@
     <MESSAGE value="Posted At &amp; Posted Image" />
     <MESSAGE value="Keeping Track of Loading State" />
     <MESSAGE value="User Profile Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Profile Test" />
+    <MESSAGE value="User Post Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="User Post Test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -327,10 +330,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1060" y="648" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577808437452" />
-    <state x="903" y="222" key="CommitChangelistDialog2" timestamp="1577809678046">
+    <state x="903" y="222" key="CommitChangelistDialog2" timestamp="1577811535184">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="903" y="222" key="CommitChangelistDialog2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577809678046" />
+    <state x="903" y="222" key="CommitChangelistDialog2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577811535184" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1577798002514">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -343,10 +346,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1054" y="519" key="NewPhpClassDialog/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577801137611" />
-    <state x="872" y="449" key="Vcs.Push.Dialog.v2" timestamp="1577809681277">
+    <state x="872" y="449" key="Vcs.Push.Dialog.v2" timestamp="1577811541504">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="449" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577809681277" />
+    <state x="872" y="449" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577811541504" />
     <state x="956" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1577763885489">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
