@@ -7,13 +7,13 @@
                          src="https://pbs.twimg.com/media/EL8XDZfVAAACOwV?format=jpg&name=large">
                 </div>
                 <div class="ml-6">
-                    <div class="text-sm font-boldd">User Name</div>
+                    <div class="text-sm font-boldd">{{ post.data.attributes.posted_by.data.attributes.name }}</div>
                     <div class="text-sm text-gray-600">12 mins ago</div>
                 </div>
             </div>
 
             <div class="mt-4">
-                <p>Not having fun at all.</p>
+                <p>{{ post.data.attributes.body }}</p>
             </div>
         </div>
 
@@ -58,7 +58,11 @@
 
 <script>
     export default {
-        name: "Post"
+        name: "Post",
+
+        props: [
+            'post',
+        ]
     }
 </script>
 
