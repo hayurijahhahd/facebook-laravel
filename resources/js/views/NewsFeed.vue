@@ -34,7 +34,7 @@
                 .catch(error => {
                     console.log('Unable to fetch posts');
                     this.loading = false;
-                })
+                });
         }
     }
 </script>
