@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4deb5a5d-fafd-455a-b7fe-8d2092eb667a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/NewPost.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/NewsFeed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/Post.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/NewsFeed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/NewsFeed.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577763418881</updated>
       <workItem from="1577763420376" duration="444000" />
-      <workItem from="1577763875775" duration="15784000" />
+      <workItem from="1577763875775" duration="17134000" />
     </task>
     <servers />
   </component>
@@ -212,6 +211,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="956" y="544" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577763885489" />
+    <state x="1087" y="632" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577797931567">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1087" y="632" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1577797931567" />
     <state x="966" y="294" width="627" height="852" key="find.popup" timestamp="1577766998284">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
